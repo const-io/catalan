@@ -1,8 +1,8 @@
-const-catalan
+Catalan's Constant
 ===
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url] [![Dependencies][dependencies-image]][dependencies-url]
 
-> Catalan's constant.
+> [Catalan's constant](http://en.wikipedia.org/wiki/Catalan%27s_constant).
 
 
 ## Installation
@@ -17,18 +17,27 @@ For use in the browser, use [browserify](https://github.com/substack/node-browse
 ## Usage
 
 ``` javascript
-var foo = require( 'compute-const-catalan' );
+var C = require( 'compute-const-catalan' );
 ```
 
-#### foo( arr )
+#### C
 
-What does this function do?
+[Catalan's constant](http://en.wikipedia.org/wiki/Catalan%27s_constant).
+
+``` javascript
+C === 0.915965594177219
+```
+
+__Note__: Catalan's constant is also denoted by `K` or `G`.
 
 
 ## Examples
 
 ``` javascript
-var foo = require( 'compute-const-catalan' );
+var C = require( 'compute-const-catalan' );
+
+console.log( C );
+// returns 0.915965594177219
 ```
 
 To run the example code from the top-level application directory,

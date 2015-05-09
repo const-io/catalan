@@ -25,7 +25,15 @@
   "keywords": [
     "compute.io",
     "compute",
-    "computation"
+    "computation",
+    "math",
+    "mathematics",
+    "catalan",
+    "constant",
+    "const",
+    "combinatorics",
+    "polygamma",
+    "trigamma"
   ],
   "bugs": {
     "url": "https://github.com/compute-io/const-catalan/issues"

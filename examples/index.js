@@ -1,3 +1,5 @@
 'use strict';
 
-var foo = require( './../lib' );
+var C = require( './../lib' );
+
+console.log( C );
