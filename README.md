@@ -4,6 +4,13 @@ Catalan's Constant
 
 > [Catalan's constant](http://en.wikipedia.org/wiki/Catalan%27s_constant).
 
+Catalan's constant `C` (also denoted `K` or `G`) commonly appears in estimates of combinatorial functions and may be defined by the following infinite series
+
+<div align="center">
+	<img src="https://github.com/compute-io/const-catalan/docs/img/eqn.png" alt="Calatan's constant." height="48px">
+	<br>
+</div>
+
 
 ## Installation
 
@@ -17,18 +24,16 @@ For use in the browser, use [browserify](https://github.com/substack/node-browse
 ## Usage
 
 ``` javascript
-var C = require( 'compute-const-catalan' );
+var CATALAN = require( 'compute-const-catalan' );
 ```
 
-#### C
+#### CATALAN
 
 [Catalan's constant](http://en.wikipedia.org/wiki/Catalan%27s_constant).
 
 ``` javascript
-C === 0.915965594177219
+CATALAN === 0.915965594177219
 ```
-
-__Note__: Catalan's constant is also denoted by `K` or `G`.
 
 
 ## Examples
