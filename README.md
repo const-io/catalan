@@ -7,7 +7,7 @@ Catalan's Constant
 Catalan's constant `C` (also denoted `K` or `G`) commonly appears in estimates of combinatorial functions and may be defined by the following infinite series
 
 <div align="center">
-	<img src="https://github.com/compute-io/const-catalan/blob/master/docs/img/eqn.png" alt="Calatan's constant." height="48px">
+	<img src="https://github.com/compute-io/const-catalan/blob/master/docs/img/eqn.png" alt="Equation for Catalan's constant." height="48px">
 	<br>
 </div>
 
