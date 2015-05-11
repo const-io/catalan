@@ -6,13 +6,9 @@ Catalan's Constant
 
 Catalan's constant `C` (also denoted `K` or `G`) commonly appears in estimates of combinatorial functions and may be defined by the following infinite series
 
-<div align="center">
-	<img src="https://github.com/compute-io/const-catalan/blob/master/docs/img/eqn.png" alt="Equation for Catalan's constant." height="48px">
-	<br>
-</div>
 
 <div class="equation" align="center" data-raw-text="C = \sum_{n=0}^{\infty} \frac{(-1)^{n}}{(2n+1)^2} = \frac{1}{1^2} - \frac{1}{3^2} + \frac{1}{5^2} - \frac{1}{7^2} + \cdots \! " data-equation=“eq:catalan_constant>
-	<img src="https://cdn.rawgit.com/compute-io/cosine-distance/e749d08c4307235ab3f26fa8ff75363183293c39/docs/img/eqn.svg" alt="Equation for Catalan's constant.">
+	<img src="https://cdn.rawgit.com/compute-io/const-catalan/7b688ecf18c8d0af8637ea4f3b3ddf3efe15ddff/docs/img/eqn.svg" alt="Equation for Catalan's constant.">
 	<br>
 </div>
 
