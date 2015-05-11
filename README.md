@@ -11,6 +11,12 @@ Catalan's constant `C` (also denoted `K` or `G`) commonly appears in estimates o
 	<br>
 </div>
 
+<div class="equation" align="center" data-raw-text="C = \sum_{n=0}^{\infty} \frac{(-1)^{n}}{(2n+1)^2} = \frac{1}{1^2} - \frac{1}{3^2} + \frac{1}{5^2} - \frac{1}{7^2} + \cdots \! " data-equation=“eq:catalan_constant>
+	<img src="https://cdn.rawgit.com/compute-io/cosine-distance/e749d08c4307235ab3f26fa8ff75363183293c39/docs/img/eqn.svg" alt="Equation for Catalan's constant.">
+	<br>
+</div>
+
+
 
 ## Installation
 
@@ -83,7 +89,7 @@ $ make view-cov
 ---
 ## License
 
-[MIT license](http://opensource.org/licenses/MIT). 
+[MIT license](http://opensource.org/licenses/MIT).
 
 
 ## Copyright
