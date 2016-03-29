@@ -38,7 +38,10 @@
     "catalan",
     "combinatorics",
     "polygamma",
-    "trigamma"
+    "trigamma",
+    "c",
+    "k",
+    "g"
   ],
   "bugs": {
     "url": "https://github.com/const-io/catalan/issues"

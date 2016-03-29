@@ -39,9 +39,9 @@ CATALAN === 0.915965594177219;
 ## Examples
 
 ``` javascript
-var C = require( 'compute-const-catalan' );
+var CATALAN = require( 'compute-const-catalan' );
 
-console.log( C );
+console.log( CATALAN );
 // returns 0.915965594177219
 ```
 

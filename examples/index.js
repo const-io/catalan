@@ -1,6 +1,6 @@
 'use strict';
 
-var C = require( './../lib' );
+var CATALAN = require( './../lib' );
 
-console.log( C );
+console.log( CATALAN );
 // returns 0.915965594177219
