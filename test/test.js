@@ -1,27 +1,20 @@
-/* global require, describe, it */
 'use strict';
 
 // MODULES //
 
-var // Expectation library:
-	chai = require( 'chai' ),
-
-	// Module to be tested:
-	CONST = require( './../lib' );
-
-
-// VARIABLES //
-
-var expect = chai.expect,
-	assert = chai.assert;
+var tape = require( 'tape' );
+var CATALAN = require( './../lib' );
 
 
 // TESTS //
 
-describe( 'compute-const-catalan', function tests() {
+tape( 'main export is a number', function test( t ) {
+	t.ok( true, __filename );
+	t.equal( typeof CATALAN, 'number', 'main export is a number' );
+	t.end();
+});
 
-	it( 'should export a number', function test() {
-		expect( CONST ).to.be.a( 'number' );
-	});
-
+tape( 'the exported value is a double-precision floating-point number equal to 0.915965594177219', function test( t ) {
+	t.equal( CATALAN, 0.915965594177219, 'returns 0.915965594177219' );
+	t.end();
 });

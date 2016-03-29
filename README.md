@@ -1,17 +1,17 @@
 Catalan's Constant
 ===
-[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url] [![Dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][build-image]][build-url] [![Coverage Status][coverage-image]][coverage-url] [![Dependencies][dependencies-image]][dependencies-url]
 
-> [Catalan's constant](http://en.wikipedia.org/wiki/Catalan%27s_constant).
+> [Catalan's constant][catalan-constant].
 
-Catalan's constant `C` (also denoted `K` or `G`) commonly appears in estimates of combinatorial functions and may be defined by the following infinite series
+[Catalan's constant][catalan-constant] `C` (also denoted `K` or `G`) commonly appears in estimates of combinatorial functions and may be defined by the following infinite series
 
-
+<!-- <equation class="equation" label="eq:catalan_constant" align="center" raw="C = \sum_{n=0}^{\infty} \frac{(-1)^{n}}{(2n+1)^2} = \frac{1}{1^2} - \frac{1}{3^2} + \frac{1}{5^2} - \frac{1}{7^2} + \cdots" alt="Catalan's constant"> -->
 <div class="equation" align="center" data-raw-text="C = \sum_{n=0}^{\infty} \frac{(-1)^{n}}{(2n+1)^2} = \frac{1}{1^2} - \frac{1}{3^2} + \frac{1}{5^2} - \frac{1}{7^2} + \cdots" data-equation="eq:catalan_constant">
-	<img src="https://cdn.rawgit.com/compute-io/const-catalan/7b688ecf18c8d0af8637ea4f3b3ddf3efe15ddff/docs/img/eqn.svg" alt="Equation for Catalan's constant.">
+	<img src="https://cdn.rawgit.com/compute-io/const-catalan/7b688ecf18c8d0af8637ea4f3b3ddf3efe15ddff/docs/img/eqn.svg" alt="Catalan's constant">
 	<br>
 </div>
-
+<!-- </equation> -->
 
 
 ## Installation
@@ -19,8 +19,6 @@ Catalan's constant `C` (also denoted `K` or `G`) commonly appears in estimates o
 ``` bash
 $ npm install compute-const-catalan
 ```
-
-For use in the browser, use [browserify](https://github.com/substack/node-browserify).
 
 
 ## Usage
@@ -31,10 +29,10 @@ var CATALAN = require( 'compute-const-catalan' );
 
 #### CATALAN
 
-[Catalan's constant](http://en.wikipedia.org/wiki/Catalan%27s_constant).
+[Catalan's constant][catalan-constant].
 
 ``` javascript
-CATALAN === 0.915965594177219
+CATALAN === 0.915965594177219;
 ```
 
 
@@ -54,11 +52,12 @@ $ node ./examples/index.js
 ```
 
 
+---
 ## Tests
 
 ### Unit
 
-Unit tests use the [Mocha](http://mochajs.org/) test framework with [Chai](http://chaijs.com) assertions. To run the tests, execute the following command in the top-level application directory:
+This repository uses [tape][tape] for unit tests. To run the tests, execute the following command in the top-level application directory:
 
 ``` bash
 $ make test
@@ -69,7 +68,7 @@ All new feature development should have corresponding unit tests to validate cor
 
 ### Test Coverage
 
-This repository uses [Istanbul](https://github.com/gotwarlost/istanbul) as its code coverage tool. To generate a test coverage report, execute the following command in the top-level application directory:
+This repository uses [Istanbul][istanbul] as its code coverage tool. To generate a test coverage report, execute the following command in the top-level application directory:
 
 ``` bash
 $ make test-cov
@@ -82,6 +81,23 @@ $ make view-cov
 ```
 
 
+### Browser Support
+
+This repository uses [Testling][testling] for browser testing. To run the tests in a (headless) local web browser, execute the following command in the top-level application directory:
+
+``` bash
+$ make test-browsers
+```
+
+To view the tests in a local web browser,
+
+``` bash
+$ make view-browser-tests
+```
+
+<!-- [![browser support][browsers-image]][browsers-url] -->
+
+
 ---
 ## License
 
@@ -90,23 +106,31 @@ $ make view-cov
 
 ## Copyright
 
-Copyright &copy; 2015. Athan Reines.
+Copyright &copy; 2015-2016. The [Compute.io][compute-io] Authors.
 
 
 [npm-image]: http://img.shields.io/npm/v/compute-const-catalan.svg
 [npm-url]: https://npmjs.org/package/compute-const-catalan
 
-[travis-image]: http://img.shields.io/travis/compute-io/const-catalan/master.svg
-[travis-url]: https://travis-ci.org/compute-io/const-catalan
+[build-image]: http://img.shields.io/travis/const-io/catalan/master.svg
+[build-url]: https://travis-ci.org/const-io/catalan
 
-[coveralls-image]: https://img.shields.io/coveralls/compute-io/const-catalan/master.svg
-[coveralls-url]: https://coveralls.io/r/compute-io/const-catalan?branch=master
+[coverage-image]: https://img.shields.io/codecov/c/github/const-io/catalan/master.svg
+[coverage-url]: https://codecov.io/github/const-io/catalan?branch=master
 
-[dependencies-image]: http://img.shields.io/david/compute-io/const-catalan.svg
-[dependencies-url]: https://david-dm.org/compute-io/const-catalan
+[dependencies-image]: http://img.shields.io/david/const-io/catalan.svg
+[dependencies-url]: https://david-dm.org/const-io/catalan
 
-[dev-dependencies-image]: http://img.shields.io/david/dev/compute-io/const-catalan.svg
-[dev-dependencies-url]: https://david-dm.org/dev/compute-io/const-catalan
+[dev-dependencies-image]: http://img.shields.io/david/dev/const-io/catalan.svg
+[dev-dependencies-url]: https://david-dm.org/dev/const-io/catalan
 
-[github-issues-image]: http://img.shields.io/github/issues/compute-io/const-catalan.svg
-[github-issues-url]: https://github.com/compute-io/const-catalan/issues
+[github-issues-image]: http://img.shields.io/github/issues/const-io/catalan.svg
+[github-issues-url]: https://github.com/const-io/catalan/issues
+
+[tape]: https://github.com/substack/tape
+[istanbul]: https://github.com/gotwarlost/istanbul
+[testling]: https://ci.testling.com
+
+[compute-io]: https://github.com/compute-io
+
+[catalan-constant]: http://en.wikipedia.org/wiki/Catalan%27s_constant
