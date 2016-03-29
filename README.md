@@ -17,14 +17,14 @@ Catalan's Constant
 ## Installation
 
 ``` bash
-$ npm install compute-const-catalan
+$ npm install const-catalan
 ```
 
 
 ## Usage
 
 ``` javascript
-var CATALAN = require( 'compute-const-catalan' );
+var CATALAN = require( 'const-catalan' );
 ```
 
 #### CATALAN
@@ -39,7 +39,7 @@ CATALAN === 0.915965594177219;
 ## Examples
 
 ``` javascript
-var CATALAN = require( 'compute-const-catalan' );
+var CATALAN = require( 'const-catalan' );
 
 console.log( CATALAN );
 // returns 0.915965594177219
@@ -109,8 +109,8 @@ $ make view-browser-tests
 Copyright &copy; 2015-2016. The [Compute.io][compute-io] Authors.
 
 
-[npm-image]: http://img.shields.io/npm/v/compute-const-catalan.svg
-[npm-url]: https://npmjs.org/package/compute-const-catalan
+[npm-image]: http://img.shields.io/npm/v/const-catalan.svg
+[npm-url]: https://npmjs.org/package/const-catalan
 
 [build-image]: http://img.shields.io/travis/const-io/catalan/master.svg
 [build-url]: https://travis-ci.org/const-io/catalan
