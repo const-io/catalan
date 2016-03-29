@@ -8,7 +8,7 @@ Catalan's Constant
 
 <!-- <equation class="equation" label="eq:catalan_constant" align="center" raw="C = \sum_{n=0}^{\infty} \frac{(-1)^{n}}{(2n+1)^2} = \frac{1}{1^2} - \frac{1}{3^2} + \frac{1}{5^2} - \frac{1}{7^2} + \cdots" alt="Catalan's constant"> -->
 <div class="equation" align="center" data-raw-text="C = \sum_{n=0}^{\infty} \frac{(-1)^{n}}{(2n+1)^2} = \frac{1}{1^2} - \frac{1}{3^2} + \frac{1}{5^2} - \frac{1}{7^2} + \cdots" data-equation="eq:catalan_constant">
-	<img src="https://cdn.rawgit.com/compute-io/const-catalan/7b688ecf18c8d0af8637ea4f3b3ddf3efe15ddff/docs/img/eqn.svg" alt="Catalan's constant">
+	<img src="https://cdn.rawgit.com/const-io/catalan/566611cc15795f650b5a99c8a416b9ce333185d9/docs/img/catalan.svg" alt="Catalan's constant">
 	<br>
 </div>
 <!-- </equation> -->
